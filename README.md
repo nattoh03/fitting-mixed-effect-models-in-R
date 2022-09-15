@@ -2,9 +2,9 @@
 
 
 
-## random intercept model using standard maximum likelihood parameter
-## Fixed effect = No_exposed, colony, Age, Bednet_Status
-## Outcome variable = Total_traped
+# random intercept model using standard maximum likelihood parameter
+# Fixed effect = No_exposed, colony, Age, Bednet_Status
+# Outcome variable = Total_traped
 ## Random effect = Host
 model2<-lmer(Total_traped~1+No_exposed+Colony+Age+Bednet_Status+(1|Host),REML=FALSE,data=data)
 
