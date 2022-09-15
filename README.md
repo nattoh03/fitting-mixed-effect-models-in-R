@@ -50,6 +50,5 @@ Age -0.981 -0.664 -0.799
 ###### Colony -1.52348752 9.52672
 
 ## anova(model2, test="chisq")
-
 ## exp(coef(model2))
 
